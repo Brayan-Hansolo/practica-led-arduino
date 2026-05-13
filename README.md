@@ -12,3 +12,15 @@ El LED parpadea cada 500 milisegundos utilizando el pin 13 del Arduino.
 
 ## Código
 El programa enciende y apaga el LED continuamente cada 0.5 segundos.
+
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(500);
+
+  digitalWrite(13, LOW);
+  delay(500);
+}
