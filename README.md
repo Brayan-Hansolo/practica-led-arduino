@@ -9,7 +9,6 @@ El LED parpadea cada 500 milisegundos utilizando el pin 13 del Arduino.
 - Arduino UNO
 - LED rojo
 - Resistencia 220Ω
-- Protoboard
 
 ## Código
 El programa enciende y apaga el LED continuamente cada 0.5 segundos.
